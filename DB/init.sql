@@ -1,5 +1,5 @@
 -- Create a new database
-CREATE DATABASE my_database;
+-- CREATE DATABASE my_database;
 
 -- Connect to the new database
 \c my_database;
@@ -64,15 +64,15 @@ CREATE TABLE inflow_orders (
     FOREIGN KEY (provider_id) REFERENCES users(id),
     FOREIGN KEY (product_id) REFERENCES products(id)
 );
--- Insert initial data into the table
+-- Insert initial data into the tables
 
--- users
-INSERT INTO users (name, surname, email, role) VALUES ('John', 'Doe', '11@test.com' , 'manager');
-INSERT INTO users (name, surname, email, role) VALUES ('Jane', 'Doe', '22@test.com' , 'worker');
-INSERT INTO users (name, surname, email, role) VALUES ('Alice', 'Smith', '33@test.com' , 'worker');
-INSERT INTO users (name, surname, email, role) VALUES ('Bob', 'Smith', '44@test.com' , 'worker');
-INSERT INTO users (name, surname, email, role) VALUES ('Charlie', 'Brown', '55@test.com' , 'worker');
-INSERT INTO users (name, surname, email, role) VALUES ('David', 'Brown', '66@test.com' , 'worker');
+-- Users
+INSERT INTO users (name, surname, email, pass, role) VALUES ('John', 'Doe', '11@test.com', 'password123', 'manager');
+INSERT INTO users (name, surname, email, pass, role) VALUES ('Jane', 'Doe', '22@test.com', 'password123', 'worker');
+INSERT INTO users (name, surname, email, pass, role) VALUES ('Alice', 'Smith', '33@test.com', 'password123', 'worker');
+INSERT INTO users (name, surname, email, pass, role) VALUES ('Bob', 'Smith', '44@test.com', 'password123', 'worker');
+INSERT INTO users (name, surname, email, pass, role) VALUES ('Charlie', 'Brown', '55@test.com', 'password123', 'worker');
+INSERT INTO users (name, surname, email, pass, role) VALUES ('David', 'Brown', '66@test.com', 'password123', 'worker');
 
 -- providers
 INSERT INTO providers (company_name, email, phone) VALUES ('Provider1', 'provider1@test.com', '123456789');
