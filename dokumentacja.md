@@ -27,4 +27,5 @@ Gdy nie jest napisane _kierownik_ to oznacza to, że zarówno kierownik jak i pr
 
 ### Zarządzanie stanem magazynu:
 1. Przeglądanie stanu magazynu
+2. Wysyłanie powiadomień do kierownika przez e-mail, gdy poziom zapasów jest niski.
 2. Generowanie raportu o stanie magazynu
