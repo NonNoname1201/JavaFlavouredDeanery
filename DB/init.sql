@@ -12,6 +12,7 @@ CREATE TABLE users (
     name VARCHAR(50) NOT NULL,
     surname VARCHAR(50) NOT NULL,
     email VARCHAR(50) NOT NULL,
+    pass VARCHAR(50) NOT NULL,
     role user_role NOT NULL
 );
 
