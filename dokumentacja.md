@@ -1,7 +1,7 @@
-# System zarządzania magazynem sklepu spożywczego
+# System zarządzania magazynem sklepu elektronicznego
 
 ## Opis:
-System polega na kontrolowaniu stanu magazynu spożywczego, zapewniając bezpieczeństwo przed oszukiwaniem przez pracowników. Dodatkowo system ułatwia przeliczenie stanu magazynu.
+System polega na kontrolowaniu stanu magazynu elektronicznego, zapewniając bezpieczeństwo przed oszukiwaniem przez pracowników. Dodatkowo system ułatwia przeliczenie stanu magazynu.
 
 ## Hierarchia użytkowników:
 1. Kierownik
@@ -27,5 +27,4 @@ Gdy nie jest napisane _kierownik_ to oznacza to, że zarówno kierownik jak i pr
 
 ### Zarządzanie stanem magazynu:
 1. Przeglądanie stanu magazynu
-2. Edycja stanu produktu
-3. Usuwanie produktów - _kierownik_
+2. Generowanie raportu o stanie magazynu
