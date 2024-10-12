@@ -22,10 +22,12 @@ Gdy nie jest napisane _kierownik_ to oznacza to, że zarówno kierownik jak i pr
 1. Dodawanie nowych produktów - _kierownik_
 2. Edycja informacji o produkcie - _kierownik np. zmiana ceny, nazwy_
 3. Usuwanie produktów - _kierownik_
-4. Edycja stanu produktu
-5. Usuwanie produktów - _kierownik_
+4. Tworzenie zamówień dla klientów
+5. Zamówienie produktów - _kierownik_
 
 ### Zarządzanie stanem magazynu:
 1. Przeglądanie stanu magazynu
 2. Wysyłanie powiadomień do kierownika przez e-mail, gdy poziom zapasów jest niski.
-2. Generowanie raportu o stanie magazynu
+3. Generowanie raportu o stanie magazynu
+4. Importowanie i eksportowanie stanu magazynu - _kierownik_
+5. Przeliczenie stanu magazynu - _kierownik_
