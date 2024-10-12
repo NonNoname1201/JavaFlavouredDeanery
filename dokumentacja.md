@@ -8,6 +8,11 @@ System polega na kontrolowaniu stanu magazynu spożywczego, zapewniając bezpiec
 2. Pracownik
 
 ## Funkcjonalności:
+
+### Disclaimer:
+W punkatach, gdzie jest napisane _kierownik_ oznacza to, że tylko kierownik ma dostęp do tej funkcjonalności.
+Gdy nie jest napisane _kierownik_ to oznacza to, że zarówno kierownik jak i pracownik mają dostęp do tej funkcjonalności.
+
 ### Zarządzanie użytkownikami:
 1. Logowanie
 2. Dodawanie nowych użytkowników - _kierownik_
