@@ -67,3 +67,4 @@ bin/
 .vscode/
 
 HELP.md
+/Java flavoured shop storage server/.gradle
